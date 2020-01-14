@@ -8,12 +8,14 @@
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px; 
     border: 2px solid blue;
-    justify-content: center;
-    width: fit-content;
     margin: auto;
+    width: fit-content;
+    margin-top: 100px;
 }
-#board {
-    position: relative;
-    align-content: center;
+#space {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     border: 1px solid green;
 };
+
